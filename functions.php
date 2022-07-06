@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       React Plugin for WordPress Boilerplate
- * Description:       Just a simple boilerplate to develop a plugin for WordPress that uses react.  This is the minimum.
+ * Description:       Just a simple boilerplate to develop a plugin for WordPress that uses react.  This is the minimum needed for a react plugin, you can add goodies later.
  * Requires at least: 5.9
  * Requires PHP:      7.0
  * Version:           1.0.0

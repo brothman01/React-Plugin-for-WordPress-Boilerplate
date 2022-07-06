@@ -5,14 +5,12 @@
  *
  * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
  */
-import './style.scss';
+
 
 /**
- * Internal dependencies
+ * Imports
  */
-import Edit from './edit';
-import save from './save';
-import metadata from './block.json';
 import App from './App.js';
+import './style.scss';
 
 ReactDOM.render(<App />, document.getElementById('render_here'));
