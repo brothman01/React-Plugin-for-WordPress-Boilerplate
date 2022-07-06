@@ -24,10 +24,10 @@
  add_action( 'wp_footer', 'footer_hook' );
  
  function footer_hook() {
- 	echo '<div id="render_here"></div>';
+ 	echo '<div id="render_here">foo</div>';
  }
  
 function enqueue_scripts() {
 	wp_enqueue_scripts( 'test', plugin_dir_url( __FILE__ ) . '/build/index.js', array( 'wp-element' ), '0.1.0', true );
 }
-add_action( 'init', 'enqueue_scripts' );
+add_action( 'wp_enqueue_script', 'enqueue_scripts' );
