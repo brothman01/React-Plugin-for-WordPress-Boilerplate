@@ -27,7 +27,7 @@
  	echo '<div id="render_here">foo</div>';
  }
  
-function enqueue_scripts() {
+function enqueue_script() {
 	wp_enqueue_script( 'test', plugin_dir_url( __FILE__ ) . '/build/index.js', array( 'wp-element' ), '0.1.0', true );
 }
-add_action( 'wp_enqueue_script', 'enqueue_scripts' );
+add_action( 'wp_enqueue_scripts', 'enqueue_script' );
