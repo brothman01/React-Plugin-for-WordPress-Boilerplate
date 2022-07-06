@@ -20,9 +20,14 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
- echo '<div id="render_here"></div>';
+ 
+ add_action( 'wp_footer', 'footer_hook' );
+ 
+ function footer_hook() {
+ 	echo '<div id="render_here"></div>';
+ }
  
 function enqueue_scripts() {
-	wp_enqueue_scripts( 'test', plugin_die_url( __FILE__ ) . '/build/index.js', array( 'wp-element' ), '0.1.0', true );
+	wp_enqueue_scripts( 'test', plugin_dir_url( __FILE__ ) . '/build/index.js', array( 'wp-element' ), '0.1.0', true );
 }
 add_action( 'init', 'enqueue_scripts' );
