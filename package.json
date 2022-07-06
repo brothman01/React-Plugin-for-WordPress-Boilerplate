@@ -1,8 +1,8 @@
 {
-	"name": "gutenpride",
-	"version": "0.1.0",
-	"description": "Example static block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"name": "React Plugin for WordPress Boilerplate",
+	"version": "1.0.0",
+	"description": "Just a simple boilerplate to develop a plugin for WordPress that uses react.  This is the minimum needed for a react plugin, you can add goodies later.",
+	"author": "Ben Rothman",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {

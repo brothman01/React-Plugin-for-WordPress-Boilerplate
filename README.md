@@ -13,16 +13,9 @@
 	</a>
 </p>
 
-## Installation
-
-- Download the .zip from this repository.
-- Head to your WordPress admin dashboard and navigate to 'Plugins > Add New' and upload the .zip file you downloaded in step 1.
-- Activate the plugin.
-- Enjoy :)
-
 ## Initial Setup
 
-Clone the boilerplate into the plugins folder of your WordPress installation, change the working directory to the new folder.  Run `npm start` before you get started developing for dev mode (only you testing the plugin) then when you are ready to release the plugin to the world run `npm build`.
+Clone the boilerplate into the plugins folder of your WordPress installation, change the working directory to the new folder.  Run `npm install` and then `npm start` before you get started developing for dev mode (only you testing the plugin) then when you are ready to release the plugin to the world run `npm build`.
 
 ## License
 
